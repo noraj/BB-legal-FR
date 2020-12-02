@@ -2,6 +2,8 @@
 
 > Quelques conseils autour des obligations légales, fiscales et juridique pour la pratique du Bug Bounty en France
 
+:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignoré la loi, renseignez vous et vérifiez totu ce qui est écrit ici.
+
 ## TL;DR FAQ
 
 > Débusquons ensemble les pré-jugés incorrects
