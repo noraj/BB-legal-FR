@@ -1,2 +1,6 @@
-# BB-legal-FR
-Quelques règles et conseils légaux/juridiques autour du Bug Bounty en France
+# Bug Bounty légal en FRANCE
+
+> Quelques conseils autour des obligations légales, fiscales et juridique pour la pratique du Bug Bounty en France
+
+## TL;DR FAQ
+
