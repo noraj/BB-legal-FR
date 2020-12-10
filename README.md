@@ -1,12 +1,12 @@
 # Bug Bounty légal en FRANCE
 
-> Quelques conseils autour des obligations légales, fiscales et juridique pour la pratique du Bug Bounty en France
+> Quelques conseils autour des obligations légales, fiscales et juridiques pour la pratique du Bug Bounty en France
 
-:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez vous et vérifiez tout ce qui est écrit ici.
+:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez-vous et vérifiez tout ce qui est écrit ici.
 
 ## TL;DR FAQ
 
-> Débusquons ensemble les pré-jugés incorrects
+> Débusquons ensemble les préjugés incorrects
 
 - _Je peux faire du Bug Bounty sans créer d'entreprise._
   + **Faux**
@@ -14,40 +14,40 @@
   + **Faux**
 - _Je peux faire du Bug Bounty sans déclarer ce que je gagne._
   + **Faux**
-- _Une simple déclaration comme revenus exceptionnels liés à une activite non professionelle suffit._
+- _Une simple déclaration comme revenus exceptionnels liés à une activité non professionnelle suffit._
   + **Faux**
 
-## Etude préliminaire
+## Étude préliminaire
 
 Commençons par jeter un oeil à la [FAQ de YesWeHack](https://www.yeswehack.com/fr/entreprises/aide-faq/) :
 
 > ## Quelles sont les obligations légales, fiscales et sociales d’un hunter ?
 >
-> Si son activité auprès de la plateforme ou de plusieurs plateformes est professionnelle (exercice régulier et lucratif), le Hunter doit disposer d’un statut légal pour son activité, qui peut s’exercer de manière individuelle (Autoentrepreneur) ou en société (EURL, SARL). A défaut d’inscription à un régime juridique adéquat, le Hunter risque d’être poursuivi pour dissimulation d’activité.
+> Si son activité auprès de la plateforme ou de plusieurs plateformes est professionnelle (exercice régulier et lucratif), le Hunter doit disposer d’un statut légal pour son activité, qui peut s’exercer de manière individuelle (Autoentrepreneur) ou en société (EURL, SARL). À défaut d’inscription à un régime juridique adéquat, le Hunter risque d’être poursuivi pour dissimulation d’activité.
 >
-> Le Hunter doit se rapprocher des autorités administratives compétentes (URSSAF, administration fiscale) afin de connaitre les obligations relatives à son activité et procéder à son inscription et aux diverses formalités administratives. Pour plus d’information, voir le site de l’URSSAF rubrique « Indépendant » : https://www.urssaf.fr/portail/home/independant.html
+> Le Hunter doit se rapprocher des autorités administratives compétentes (URSSAF, administration fiscale) afin de connaître les obligations relatives à son activité et procéder à son inscription et aux diverses formalités administratives. Pour plus d’information, voir le site de l’URSSAF rubrique « Indépendant » : https://www.urssaf.fr/portail/home/independant.html
 >
-> Au-delà d’un certain niveau de revenu tiré de son activité sur la plateforme ou de plusieurs plateformes, le Hunter pourra être assujetti à la TVA et en conséquence devra facturer, collecter et reverser à l’administration fiscale la TVA afférente à chaque opération. L’administration fiscale applique une franchise de TVA suivant le Chiffre d’affaires annuel du Hunter (33.200 euros Franchise en base applicable en 2019).
+> Au-delà d’un certain niveau de revenu tiré de son activité sur la plateforme ou de plusieurs plateformes, le Hunter pourra être assujetti à la TVA et en conséquence devra facturer, collecter et reverser à l’administration fiscale la TVA afférente à chaque opération. L’administration fiscale applique une franchise de TVA suivant le Chiffre d’affaires annuel du Hunter (33.200 euros franchise en base applicable en 2019).
 >
 > Dès lors qu’il est assujetti, le Hunter doit obligatoirement émettre une facture conforme à la réglementation fiscale notamment en y mentionnant son N° de TVA. Le N° de TVA est par principe attribué automatiquement au moment où le hunter adopte un statut professionnel.
 >
 > Les mentions légales obligatoires sur la facture sont prévues à l’article 441-3 du code de commerce et aux articles article 242 nonies et 242 nonies A du code général des impôts – annexe 2.
 >
-> De plus, toute source de revenu doit faire l’objet d’une déclaration fiscale au titre de l’impôt sur le revenu et le cas échéant, au titre de l’impôt sur les sociétés en fonction du statut légal adopté.
+> De plus, toute source de revenus doit faire l’objet d’une déclaration fiscale au titre de l’impôt sur le revenu et le cas échéant, au titre de l’impôt sur les sociétés en fonction du statut légal adopté.
 >
-> Afin de connaitre ses obligations, le Hunter devra se rapprocher de son centre des impôts pour connaitre les formalités applicables à sa situation et au statut qu’il aura choisi.
+> Afin de connaître ses obligations, le Hunter devra se rapprocher de son centre des impôts pour connaître les formalités applicables à sa situation et au statut qu’il aura choisi.
 
 Bon là c'est un peu fouilli mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
 
-Maintenant regardons les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/)
+Maintenant, regardons-les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/)
 
 > ## 3.1 Création et utilisation du Compte Utilisateur
 >
-> Le Chercheur s’engage à fournir, lors de la création et de l’utilisation de son Compte Utilisateur, son numéro de TVA s’il y est assujetti et s’il est résident fiscal en France ou intra-communautaire ainsi qu’une attestation de résidence fiscale ou, à défaut, une déclaration sur l’honneur attestant du lieu de son domicile fiscal. Dans le cas où le chercheur serait domicilié ou établi en dehors de l’UE, il s’engage à fournir une preuve de son activité professionnelle indépendante et déclaré aux autorités fiscales de sa résidence fiscale.
+> Le Chercheur s’engage à fournir, lors de la création et de l’utilisation de son Compte Utilisateur, son numéro de TVA s’il y est assujetti et s’il est résident fiscal en France ou intracommunautaire ainsi qu’une attestation de résidence fiscale ou à défaut, une déclaration sur l’honneur attestant du lieu de son domicile fiscal. Dans le cas où le chercheur serait domicilié ou établi en dehors de l’UE, il s’engage à fournir une preuve de son activité professionnelle indépendante et déclarée aux autorités fiscales de sa résidence fiscale.
 >
 > Pour les besoins des cotisations sociales des chercheurs domiciliés en France, il sera demandé au Chercheur de fournir à Yogosha, chaque semestre, une attestation de vigilance ou d’auto-entrepreneur délivrée par l’URSSAF.
 
-Ici ca parle TVA, activité professionnelle, autorités fiscales, auto-entrepreneur, URSSAF.
+Ici ça parle TVA, activité professionnelle, autorités fiscales, auto-entrepreneur, URSSAF.
 
 Continuons :
 
@@ -55,9 +55,9 @@ Continuons :
 >
 > Le Chercheur s’engage à accéder et utiliser la Plateforme dans le strict respect de la réglementation applicable en matière comptable, fiscale et sociale, notamment s’agissant des obligations d’immatriculation et de déclaration auprès de l’administration fiscale et les organismes de sécurité sociale dont il dépend.
 
-Bon là c'est clairement comme le dernier paragraphe de la FAQ de YesWeHack: "Vous avez des devoirs/obligations, maintenant débrouiller vous !". Normalement à ce stade vous êtes confus,vous n'avez pas compris grand chose, vous ne savez toujours pas ce que vous devez ou pouvez faire et vous n'avez pas plus de réponses qu'au départ mais plutôt des questions supplémentaires.
+Bon là c'est clairement comme le dernier paragraphe de la FAQ de YesWeHack: "Vous avez des devoirs/obligations, maintenant débrouiller vous !". Normalement à ce stade vous êtes confus,vous n'avez pas compris grand-chose, vous ne savez toujours pas ce que vous devez ou pouvez faire et vous n'avez pas plus de réponses qu'au départ, mais plutôt des questions supplémentaires.
 
-Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout ca, il y a peut être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçu et ce que vous aurez (ou pas) déclaré.
+Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout cas, il y a peut être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçues et ce que vous aurez (ou pas) déclaré.
 
 > ## 7.3 Responsabilités administratives et fiscales de Yogosha concernant les chercheurs dont la résidence fiscale est en France
 >
@@ -76,7 +76,7 @@ Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout
 
 ### _Je peux faire du Bug Bounty sans créer d'entreprise._
 
-**Faux**, c'est une activité exercée à titre indépendant, dans un but lucratif. Il va falloir créer une entreprise, nous reviendrons sur les differents types d'entreprise possibles par la suite.
+**Faux**, c'est une activité exercée à titre indépendant, dans un but lucratif. Il va falloir créer une entreprise, nous reviendrons sur les différents types d'entreprises possibles par la suite.
 
 Ref.
 
@@ -87,9 +87,9 @@ Ref.
 
 **Faux**, le Bug Bounty peut facilement être catégorisé comme une activité concurrente au Pentest, c'est en tout cas le même secteur d'activité, et les deux activités peuvent partager les mêmes clients.
 
-La loyauté empêche d'exercer une 2ème activité professionnelle si elle est considérée comme concurrente. Elle est imposée par le code civil et le code pénal et souvent rappelée dans une clause spécifique du contrat de travail.
+La loyauté empêche d'exercer une 2e activité professionnelle si elle est considérée comme concurrente. Elle est imposée par le code civil et le code pénal et souvent rappelé dans une clause spécifique du contrat de travail.
 
-Il existe souvent dans les contrats de travail une clause d'exclusivité qui interdit au salarié d'exercer une activité professionnelle complémentaire qu'elle soit concurrente ou non. Mais dans la quasi totalité des cas cette clause est nulle et non applicable car les conditions suivantes ne sont pas respecter :
+Il existe souvent dans les contrats de travail une clause d'exclusivité qui interdit au salarié d'exercer une activité professionnelle complémentaire qu'elle soit concurrente ou non. Mais dans la quasi-totalité des cas, cette clause est nulle et non applicable, car les conditions suivantes ne sont pas respectées :
 
 - les raisons de son insertion dans le contrat de travail ou l'avenant doivent être motivées
 - le périmètre de l'exclusivité de l'activité du salarié doit être précisément délimité
@@ -108,7 +108,7 @@ Ref.
 
 ### _Je peux faire du Bug Bounty sans déclarer ce que je gagne._
 
-**Faux**, à partir du moment où vous résidez en France ou que votre domicil fiscal est en France vous devez déclarer vos revenus peu importe le montant. Cela ne veut pas forcément dire que vous allez devori payer des impôts.
+**Faux**, à partir du moment où vous résidez en France ou que votre domicile fiscal est en France vous devez déclarer vos revenus, peu importe le montant. Cela ne veut pas forcément dire que vous allez devoir payer des impôts.
 
 Ref.
 
@@ -116,9 +116,9 @@ Ref.
 - [impots.gouv.fr - Obligations déclaratives][11]
 - [service-public.fr - Impôt sur le revenu : déclaration de revenus annuelle][12]
 
-### _Une simple déclaration comme revenus exceptionnels liés à une activite non professionelle suffit._
+### _Une simple déclaration comme revenus exceptionnels liés à une activité non professionnelle suffit._
 
-**Faux**, en aucun cas une activitée à but lucratif ne rentre dans les cas prévus pour les revenus exceptionnels même si c'est ponctuel ou représente de petits montants.
+**Faux**, en aucun cas une activité à but lucratif ne rentre dans les cas prévus pour les revenus exceptionnels même si c'est ponctuel ou représente de petits montants.
 
 Ref.
 
@@ -163,7 +163,7 @@ https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise
 
 ## [Draft] CFE
 
-Le CFE de Paris est 16,52% => mais il y a un paquet de ville avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
+Le CFE de Paris est 16,52% =>, mais il y a un paquet de ville avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
 
 https://www.data.gouv.fr/fr/datasets/impots-locaux/
 
