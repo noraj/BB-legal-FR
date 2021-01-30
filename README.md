@@ -126,36 +126,130 @@ Ref.
 - [economie.gouv.fr - Quelles modalités d'imposition pour les revenus exceptionnels ?][14]
 - [service-public.fr - Impôt sur les revenus exceptionnels : quelles sont les règles ?][15]
 
-[13]:https://www.impots.gouv.fr/portail/particulier/revenus-exceptionnels
-[14]:https://www.economie.gouv.fr/particuliers/impot-revenus-exceptionnels
-[15]:https://www.service-public.fr/particuliers/vosdroits/F3178
-
-## [Draft] Création d'une entreprise
+## Création d'une entreprise
 
 Entrepreneur individuel, Micro-entrepreneur/auto-entrepreneur, EIRL, SARL, EURL, SAS, SASU
 
-- https://www.impots.gouv.fr/portail/professionnel/exercice-dune-activite-en-nom-personnel
-- https://www.impots.gouv.fr/portail/avantages-et-inconvenients-des-entreprises-individuelles
-- https://www.lecoindesentrepreneurs.fr/les-statuts-d-entreprises/
-- https://www.economie.gouv.fr/entreprises/creation-entreprise-demarches
-- https://www.guichet-entreprises.fr/fr/creation-dentreprise/les-prealables-a-la-creation-dentreprise/les-formes-juridiques-de-lentreprise/
+### Créer une entreprise seul
 
-## [Draft] L'entrepreneur individuel
+> Il existe 3 possibilités d'exercer Pour exercer une une activité en nom personnel soumise à l'impôt sur le revenu vous avez le choix entre trois statuts différents :
+>
+> - le statut de l'entrepreneur individuel (**EI**) ;
+> - le statut du **micro-entrepreneur** ;
+> - le statut de l'Entrepreneur Individuel à Responsabilité Limitée (**EIRL**).
+>
+> Etre entrepreneur individuel ou en votre nom personnel signifie que vous êtes personnellement responsable sur votre patrimoine des dettes résultant de votre activité professionnelle.
+>
+> L'EIRL vous permet toutefois de limiter votre responsabilité par l'enregistrement d'une déclaration d’affectation d'une partie de votre patrimoine (DAP) à votre activité professionnelle.
+>
+> Les principaux avantages de l'activité exercée en nom personnel résident dans la facilité de création et la souplesse de gestion.
+
+Ref.
+
+- [impots.gouv.fr - Exercice d'une activité en nom personnel][18] (voir le tableau comparatif des 3 status)
+- [impots.gouv.fr - Avantages et inconvénients des entreprises individuelles][19]
+
+Les 3 status sont des entreprises individuelles en nom propre où l'identité de l'entreprise correspond à celle de son dirigeant (le nom de l'entreprise comportera votre nom),
+et elle ne peut être constitué que d'une seule personne physique (vous, pas d'associés ou de salariés).
+La micro-entreprise est une entreprise individuelle qui bénéficie d'un régime simplifié.
+L'entreprise individuelle n'a donc aucun intérêt pour le bug bounty et la micro-entreprise est le status le plus utilisé par les hunters car très simple.
+Le gros défaut de la micro-entreprise reste la responsabilité, le dirigeant est indéfiniment responsable des dettes de son entreprise sur ses biens propres.
+L'Entrepreneur Individuel à Responsabilité Limitée (EIRL) permet à l’entrepreneur de protéger ses biens personnels, en créant un patrimoine affecté à son activité professionnelle distinct de son patrimoine privé. C'est une entreprise individuelle qui peut aussi profiter du régime simplifié de la micro-entreprise.
+L'autre différence avec l'EIRL c'est que le dirigeant peut opter pour l'IS (impôt sur les sociétés) au lieu de l'IR (impôt sur le revenu) et donc potentiellement bénéficier de déduction de rémunération dans les comptes de l'entreprise.
+Légèrement plus compliqué l'EIRL semble plus intéressante que la micro-entreprise pour limiter sa responsabilité.
+
+Il existe deux autre status d'entreprise unipersonnelle (1 seule personne) mais non individuelle (pas en votre nom propre) :
+
+- La société par actions simplifiées unipersonnelle (**SASU**)
+- L’entreprise unipersonnelle à responsabilité limitée (**EURL**)
+
+La SASU est un cas particulier de SAS, elle va être beaucoup plus complexe que les entreprises individuelles et son principal avantage est de pouvoir émettre
+des actions, pour faire du bug bounty cela ne va pas du tout nous intéresser.
+L'EURL est un cas particulier de SARL, là aussi beaucoup plus complexe et génère d'avantage d'obligations juridique et comptables, l'intérêt se en cas de dépassement des plafonds
+de revenus des entreprises individuelles (nous verrons ce point par la suite).
+
+Ref.
+
+- [guichet-entreprises.fr - Les formes juridiques de l’entreprise][16]
+- [lecoindesentrepreneurs.fr - Les différents statuts juridiques possibles pour les entreprises][17]
+
+### Créer une entreprise à plusieurs
+
+Il existe de nombreux autres status d'entreprises qui requièrent au minimum 2 associés : SA, SARL, SNC, certaines SEL, etc.
+
+Ces status d'entreprise ne nous intéressent pas dans le cadre du bug bounty.
+
+### Conclusion
+
+Les 3 status qui vont intéressés les hunters Français sont donc la micro-entreprise, l'EIRL et plus rarement l'EURL.
+Nous avons déjà expliqué l'intérêt de l'EIRL par rapport à la micro-entreprise au niveau de la responsabilité.
+Ce qui fera pencher entre l'EIRL (ou micro-entreprise) et l'EURL sera lié au régime fiscal, notamment du plafond de revenus.
+
+## Les régimes fiscaux des entreprises individuelles
 
 > L'entrepreneur individuel peut choisir entre 3 régimes d'imposition, en fonction du montant de son chiffre d'affaires : le [régime de la micro-entreprise][7], le [régime réel simplifié][8] et le [régime réel normal][9].
 
-Pour du BNC :
+Pour des bénéfices non commerciaux (BNC) :
 
-- Régime micro entreprise : 0 à 72 600 €
-- régime réel simplifié : 72 600 à 238 000 €
+- régime micro entreprise : 0 à 72 600 €
+- régime réel simplifié : 70 600 à 238 000 €
 - régime réel normal : 238k€ et +
+- régime de la déclaration contrôlée : 70 000 € et +
 
-Guichet entreprise (https://www.guichet-entreprises.fr/) vs l'URSSAF
+Ici l'on comprend bien que l'on pourra ne bénéficier du régime de micro-entreprise
+qu'en dessous de ce palier de revenus.
+Au dessus de ~70k€ il faudra passer soit à une EIRL au régime réel ou de déclaration contrôlée,
+soit à une EURL au régime de l’impôt sur les sociétés (IS) ou au régime des
+sociétés de personnes (dans le cadre d'une personne morale) [[20][20]][[21][21]].
 
-## [Draft] BIC, BNC, etc.
+Point de vue personnel : je pense opter pour l'EIRL afin de conserver un status simple tout en limitant mes responsabilités, et en partant du régime micro entreprise
+qui est le plus simple et passer au régime réel simplifié si jamais j'ai le chance de dépasser le plafond de revenus.
 
-https://www.economie.gouv.fr/entreprises/impot-sur-revenu-bic-bnc
-https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise
+## Types de bénéfices : BIC, BNC, etc.
+
+> Les bénéfices industriels et commerciaux (**BIC**), les bénéfices non commerciaux (**BNC**) sont des revenus qui sont soumis à l’impôt sur le revenu.
+
+Exemple :
+
+- BIC : commerces, artisans, industries, restaurants, prestation de service commerciaux, etc.
+- BNC : professions libérales, officiers, etc.
+
+Le bug bounty hunting est classifiable comme profession libérale (les indépendants
+qui exercent un art ou une science) au même titre que les développeurs, consultants,
+experts, etc. donc nos bénéfices seront 100% en BNC.
+
+Ref.
+
+- [economie.gouv.fr - Impôt sur le revenu : BIC, BNC, comment ça marche ?][22]
+- [shine.fr - Êtes-vous en BIC ou en BNC ? Le guide pour tout savoir][23]
+
+## Les démarches
+
+La page [Création d'entreprise : les démarches à effectuer][25] nous donne un
+aperçu haut niveau des démarches à entreprendre pour la création de son entreprise :
+
+- Choisir le statut juridique de votre entreprise (abordé plus haut ici)
+- Les conséquences fiscales du choix du statut juridique de votre entreprise (abordé plus haut ici)
+- Les déclarations et immatriculations
+- Les centres de formalités des entreprises (CFE) : dans notre cas l'Urssaf
+- L'attribution des numéros d'identification : [SIREN, SIRET, APE, TVA][26]
+- Les démarches supplémentaires, non prises en charge par les CFE :
+  - La domiciliation de votre entreprise
+  - Le choix du nom de votre entreprise
+  - Vos besoins d'assurance
+  - L'ouverture d'un compte bancaire
+
+Il est possible de faire toutes les démarches de création d'entreprise en
+ligne :
+- sur le [Guichet entreprise][24] pour tout type d'entreprise
+- sur l'[URSSAF portail auto-entrepreneur][27] uniquement pour l'entreprise individuelle avec régime de micro-entrepreneur a.k.a. auto-entrepreneur
+
+Une page intéressante est aussi [Tout savoir sur la micro-entreprise][28] qui reprend :
+
+- les étapes de création (Créer sa micro-entreprise)
+- l'imposition (Payer ses impôts)
+- les cotisations (Payer ses cotisations sociales)
+- les aides (Obtenir des aides financières)
 
 ## [Draft] TVA
 
@@ -179,3 +273,19 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 [10]:https://www.economie.gouv.fr/particuliers/impot-revenu-obligations-declaratives
 [11]:https://www.impots.gouv.fr/portail/particulier/obligations-declaratives
 [12]:https://www.service-public.fr/particuliers/vosdroits/F358
+[13]:https://www.impots.gouv.fr/portail/particulier/revenus-exceptionnels
+[14]:https://www.economie.gouv.fr/particuliers/impot-revenus-exceptionnels
+[15]:https://www.service-public.fr/particuliers/vosdroits/F3178
+[16]:https://www.guichet-entreprises.fr/fr/creation-dentreprise/les-prealables-a-la-creation-dentreprise/les-formes-juridiques-de-lentreprise/
+[17]:https://www.lecoindesentrepreneurs.fr/les-statuts-d-entreprises/
+[18]:https://www.impots.gouv.fr/portail/professionnel/exercice-dune-activite-en-nom-personnel
+[19]:https://www.impots.gouv.fr/portail/avantages-et-inconvenients-des-entreprises-individuelles
+[20]:https://www.lecoindesentrepreneurs.fr/regime-fiscal-eurl/
+[21]:https://www.lecoindesentrepreneurs.fr/statut-fiscal-et-social-associe-unique-eurl/
+[22]:https://www.economie.gouv.fr/entreprises/impot-sur-revenu-bic-bnc
+[23]:https://www.shine.fr/blog/bic-bnc/
+[24]:https://www.guichet-entreprises.fr/
+[25]:https://www.economie.gouv.fr/entreprises/creation-entreprise-demarches
+[26]:https://www.economie.gouv.fr/entreprises/numeros-identification-entreprise
+[27]:https://www.autoentrepreneur.urssaf.fr/portail/accueil.html
+[28]:https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise
