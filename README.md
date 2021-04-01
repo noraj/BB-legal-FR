@@ -118,7 +118,15 @@ Ref.
 
 ### _Une simple déclaration comme revenus exceptionnels liés à une activité non professionnelle suffit._
 
-**Faux**, en aucun cas une activité à but lucratif ne rentre dans les cas prévus pour les revenus exceptionnels même si c'est ponctuel ou représente de petits montants.
+**Faux**, en aucun cas une activité à but lucratif ne rentre dans les cas prévus pour les revenus exceptionnels.
+En pratique, il y a cependant une tolérance **officieuse** si le revenu est ponctuel et faible (seuil non défini) donc par exemple si vous gagnez 1 fois 500€ dans l'année pas besoin de créer une entreprise mais dès que vous dépasserez quelques milliers d'euros
+ou mènerez cette activité de manière récurrente il vous faudra créer une entreprise.
+Comme vous ne pourrez pas rattacher de manière rétro-active des revenus à votre entreprise, il faut prévoir sa création à l'avance si vous prévoyez de pratiquer la chasse aux bugs.
+
+En résumé:
+
+- Vous trouvez **1** bug qui représente un faible montant 1 fois dans l'année: pas besoin d'entreprise
+- Dans tous les autres cas **une création d'entreprise est nécessaire**, si vous vous lancez sérieusement dans le Bug Bounty vous trouverez forcément plus d'un bug par an
 
 Ref.
 
@@ -251,15 +259,66 @@ Une page intéressante est aussi [Tout savoir sur la micro-entreprise][28] qui r
 - les cotisations (Payer ses cotisations sociales)
 - les aides (Obtenir des aides financières)
 
-## [Draft] TVA
+## Les courriers
 
-33k
+### Création de l'entreprise
+
+A la création de votre entreprise vous recevrez notamment les courriers postaux
+suivants:
+
+- Une lettre de la _DGFIP_ (Direction Général des FInances Publiques), plus précisément du _Service des Impôts des Entreprises_ rappelant les démarches à suivre en terme de déclaration d'impôt ainsi qu'un _memento fiscal_ concernant votre activité et vos obligations fiscales (type d'impôt (BNC, TVA, CFE) et régime d'imposition)
+- Un _Certificat d'inscription au Répertoire des Entreprises et des Établissements_ (SIRENE) envoyé par l'_INSEE_ contenant la description de la personne et de l'établissement où vous trouverez tous les numéros utils
+- Une _Notification d'affiliation_ à la sécurité sociale (CPAM) envoyé par l'_URSSAF_
+- Potentiellement une lettre du _Greffe du tribunal de commerce_ en cas de non conformité de votre dossier
+
+### [Draft] Durant la vie de l'entreprise
+
+TODO
+
+### [Draft] Cessation d'activité
+
+TODO
+
+## TVA
+
+> La TVA est une taxe collectée par les entreprises et reversée à l’Etat. L'entreprise collecte la TVA sur le montant de ses ventes, c'est la TVA collectée. En contrepartie, elle peut déduire de la TVA payer sur ses propres achats auprès de ses fournisseurs, c'est la TVA déductible. L'entreprise versera à l'État la différence entre la TVA collectée et la TVA déductible.
+
+Une entreprise individuelle peut être exonérée de TVA en optant pour le **régime de la franchise de TVA** et il n'y a donc pas besoin de facturer de TVA.
+Par contre vous ne pouvez pas non plus récupérer celle sur vos achats.
+
+Les conditions pour pouvoir bénéficier de la franchise en base de TVA:
+
+- chiffre d’affaires hors taxes au cours de l’année civile précédente < 33 200 €
+- indiquer sur vos factures la mention suivante : `TVA non applicable, art. 293 B du CGI`
+
+Une marge est accordée dans le dépassement des seuils.
+La franchise reste applicable pendant l’année au cours de laquelle a lieu le dépassement si le chiffre d'affaires < 35 200 €.
+
+> Si vous dépassez ces seuils, la TVA s’appliquera à compter du premier jour du mois au cours duquel les seuils ont été dépassés. Cela peut être embêtant quand vous avez déjà émis des factures pour le mois !
+
+Avec le **régime réel simplifié de TVA** il faut payer des acomptes de TVA et établir une déclaration annuelle de TVA. Si le montant de la taxe est supérieur à 15 000 €, il faut déposer une déclaration de TVA mensuellement à compter de l’exercice suivant.
+
+En récapitulatif:
+
+- régime de la franchise de TVA (pas de TVA) : CA < 33 200€
+- régime réel simplifié de TVA : 33 200 à 238 000€
+- régime normal de TVA : + 238 000€
+
+Ref.
+
+- [captaincontrat.com - EIRL et TVA : fonctionnement de la taxe sur la valeur ajoutée en entreprise individuelle à responsabilité limitée][29]
+- [impots.gouv.fr - En tant que micro-entrepreneur, puis-je être redevable de la TVA ?][30]
 
 ## [Draft] CFE
 
 Le CFE de Paris est 16,52% =>, mais il y a un paquet de ville avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
 
 https://www.data.gouv.fr/fr/datasets/impots-locaux/
+
+## [Draft] divers
+
+assurance, compte bancaire, etc.
+espace pro impots
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
 [2]:https://www.legifrance.gouv.fr/codes/id/LEGIARTI000038602150/2019-07-01/
@@ -289,3 +348,5 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 [26]:https://www.economie.gouv.fr/entreprises/numeros-identification-entreprise
 [27]:https://www.autoentrepreneur.urssaf.fr/portail/accueil.html
 [28]:https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise
+[29]:https://www.captaincontrat.com/articles-gestion-entreprise/eirl-tva
+[30]:https://www.impots.gouv.fr/portail/professionnel/questions/en-tant-que-micro-entrepreneur-puis-je-etre-redevable-de-la-tva
