@@ -309,6 +309,71 @@ Ref.
 - [captaincontrat.com - EIRL et TVA : fonctionnement de la taxe sur la valeur ajoutée en entreprise individuelle à responsabilité limitée][29]
 - [impots.gouv.fr - En tant que micro-entrepreneur, puis-je être redevable de la TVA ?][30]
 
+## Compte bancaire
+
+Pour une auto-entreprise ayant un chiffre d'affaires supérieur à 10 000€ un
+compte bancaire dédié à l'auto-entreprise est obligatoire (séparé du compte
+courant personnel).
+Il doit être utiliser uniquement pour l’ensemble des transactions financières
+liées à l'activité de l'entreprise :
+
+- dépôt des recettes
+- dépenses effectuées dans le cadre de l'activité
+- paiement de vos charges (CFE, TVA, cotisations sociales, etc.)
+- prélèvement de votre rémunération
+
+Il n'est pas obligatoire d'ouvrir un compte professionnel, un compte
+courant en son nom suffit (différent du votre).
+
+> Il faut aussi savoir que les banques ont le droit de refuser l’ouverture du compte d’un client sans se justifier, de même qu’elles peuvent clôturer un compte bancaire arbitrairement avec un préavis d’un mois minimum.
+>
+> De fait, de nombreuses banques ont commencé à refuser tout simplement l’ouverture d’un compte dédié aux transactions d’un auto-entrepreneur. S’il est possible d’ouvrir un compte sans préciser quelle sera son utilité, rien n’empêche la banque de clôturer ensuite le compte lorsqu’elle aura réalisé à quelles fins il est utilisé. Le but est simple : forcer les auto-entrepreneurs à souscrire compte bancaire professionnel, dernier recours pour respecter la législation.
+
+Il existe beaucoup de banques qui acceptent les auto-entrepreneurs avec des
+offres allant de 5 à 20€ / mois mais si vous chercher des offres gratuites ca
+se complique. Il y a actuellement 3 banques où vous pouvez avoir un compte
+gratuit acceptant les auto-entrepreneurs mais il y a cependant quelques limitations.
+
+- **AXA Banque Pro**
+  - Les plus
+    - IBAN Français
+    - dépôt espèce et chèques
+    - CB Visa Classic
+    - virements et prélèvements SEPA illimités
+    - terminal de paiement par carte (25€ sans frais mensuel)
+  - Les moins
+    - 900 € / trimestre de dépense par carte obligatoire pour avoir la CB gratuite sinon pénalité de 4€
+    - si vous ne prenez pas la CB des frais de tenue de compte s'appliquent
+- **N26 Busines (Standard)**
+  - Les plus
+    - Cashback de 0,1 %
+    - CB Virtuelle (0€) ou Mastercard (10€ frais de livraison)
+    - virements et prélèvements SEPA illimités
+    - paiements en devises étrangères gratuits
+    - Liste des transactions téléchargeable en CSV et PDF
+  - Les moins
+    - IBAN Allemand
+    - 3 retraits CB en DAB sans frais par mois
+    - Frais sur les dépôts en cas de solde excédant 50 000€ (0,5%)
+    - Non cumulable avec un compte N26 personnel
+- **Revolut Business Free**
+  - Les plus
+    - Avantages divers sur les paiements en devises étrangères
+  - Les moins
+    - pas de CB gratuite
+    - pas de paiements internationaux gratuits
+    - 5 virements (émis et reçus cumulés) par mois sans frais
+
+Ref.
+
+- [legifrance.gouv.fr - Article L133-6-8-4 du Code de la sécurité sociale][31]
+- [legifrance.gouv.fr - Article L613-10 du Code de la sécurité sociale][32]
+- [legifrance.gouv.fr - Article 39 du la loi PACTE (LOI n° 2019-486 du 22 mai 2019 relative à la croissance et la transformation des entreprises)][33]
+- [portail-autoentrepreneur.fr - Compte bancaire des auto-entrepreneurs : que dit la loi ?][34]
+- [capitaine-banque.com - Auto-entrepreneur : un compte bancaire pro est-il obligatoire ?][35]
+- [service-public.fr - Comptabilité du micro-entrepreneur (régime micro-social)][36]
+- [independant.io - Les Meilleurs Comptes Bancaires Auto-Entrepreneur Gratuits en 2021][37]
+
 ## [Draft] CFE
 
 Le CFE de Paris est 16,52% =>, mais il y a un paquet de ville avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
@@ -317,7 +382,7 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 
 ## [Draft] divers
 
-assurance, compte bancaire, etc.
+assurance, etc.
 espace pro impots
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
@@ -350,3 +415,10 @@ espace pro impots
 [28]:https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise
 [29]:https://www.captaincontrat.com/articles-gestion-entreprise/eirl-tva
 [30]:https://www.impots.gouv.fr/portail/professionnel/questions/en-tant-que-micro-entrepreneur-puis-je-etre-redevable-de-la-tva
+[31]:https://www.legifrance.gouv.fr/codes/id/LEGIARTI000033613485/2016-12-11
+[32]:https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000038586837/
+[33]:https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000038496184?r=yo7D3WuhWy
+[34]:https://www.portail-autoentrepreneur.fr/academie/creation-auto-entreprise/compte-bancaire
+[35]:https://www.capitaine-banque.com/actualite-banque/auto-entrepreneur-compte-bancaire-pro-obligatoire/
+[36]:https://www.service-public.fr/professionnels-entreprises/vosdroits/F23266
+[37]:https://independant.io/meilleurs-comptes-bancaires-auto-entrepreneur-gratuits/
