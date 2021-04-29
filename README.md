@@ -384,7 +384,7 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 
 - assurance, etc.
 - espace pro impots
-- Tax form: pas W-8BEN (individu) mais W-8BEN-E (entreprise)
+- Tax form: pas W-8BEN (individu) mais [W-8BEN-E](https://www.irs.gov/pub/irs-pdf/iw8bene.pdf) (entreprise)
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
 [2]:https://www.legifrance.gouv.fr/codes/id/LEGIARTI000038602150/2019-07-01/
