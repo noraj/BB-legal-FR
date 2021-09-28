@@ -288,11 +288,11 @@ Par contre vous ne pouvez pas non plus récupérer celle sur vos achats.
 
 Les conditions pour pouvoir bénéficier de la franchise en base de TVA:
 
-- chiffre d’affaires hors taxes au cours de l’année civile précédente < 33 200 €
+- chiffre d’affaires hors taxes au cours de l’année civile précédente < 34 400 €
 - indiquer sur vos factures la mention suivante : `TVA non applicable, art. 293 B du CGI`
 
 Une marge est accordée dans le dépassement des seuils.
-La franchise reste applicable pendant l’année au cours de laquelle a lieu le dépassement si le chiffre d'affaires < 35 200 €.
+La franchise reste applicable pendant l’année au cours de laquelle a lieu le dépassement si le chiffre d'affaires < 36 500 €.
 
 > Si vous dépassez ces seuils, la TVA s’appliquera à compter du premier jour du mois au cours duquel les seuils ont été dépassés. Cela peut être embêtant quand vous avez déjà émis des factures pour le mois !
 
@@ -300,8 +300,8 @@ Avec le **régime réel simplifié de TVA** il faut payer des acomptes de TVA et
 
 En récapitulatif:
 
-- régime de la franchise de TVA (pas de TVA) : CA < 33 200€
-- régime réel simplifié de TVA : 33 200 à 238 000€
+- régime de la franchise de TVA (pas de TVA) : CA < 34 400€
+- régime réel simplifié de TVA : 34 400 à 238 000€
 - régime normal de TVA : + 238 000€
 
 Ref.
