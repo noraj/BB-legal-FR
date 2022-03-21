@@ -158,7 +158,7 @@ Ref.
 - [impots.gouv.fr - Avantages et inconvénients des entreprises individuelles][19]
 
 Les 3 status sont des entreprises individuelles en nom propre où l'identité de l'entreprise correspond à celle de son dirigeant (le nom de l'entreprise comportera votre nom),
-et elle ne peut être constitué que d'une seule personne physique (vous, pas d'associés ou de salariés).
+et elle ne peut être constituée que d'une seule personne physique (vous, pas d'associés ou de salariés).
 La micro-entreprise est une entreprise individuelle qui bénéficie d'un régime simplifié.
 L'entreprise individuelle n'a donc aucun intérêt pour le bug bounty et la micro-entreprise est le status le plus utilisé par les hunters car très simple.
 Le gros défaut de la micro-entreprise reste la responsabilité, le dirigeant est indéfiniment responsable des dettes de son entreprise sur ses biens propres.
@@ -314,7 +314,7 @@ Ref.
 Pour une auto-entreprise ayant un chiffre d'affaires supérieur à 10 000€ un
 compte bancaire dédié à l'auto-entreprise est obligatoire (séparé du compte
 courant personnel).
-Il doit être utiliser uniquement pour l’ensemble des transactions financières
+Il doit être utilisé uniquement pour l’ensemble des transactions financières
 liées à l'activité de l'entreprise :
 
 - dépôt des recettes
@@ -327,10 +327,10 @@ courant en son nom suffit (différent du votre).
 
 > Il faut aussi savoir que les banques ont le droit de refuser l’ouverture du compte d’un client sans se justifier, de même qu’elles peuvent clôturer un compte bancaire arbitrairement avec un préavis d’un mois minimum.
 >
-> De fait, de nombreuses banques ont commencé à refuser tout simplement l’ouverture d’un compte dédié aux transactions d’un auto-entrepreneur. S’il est possible d’ouvrir un compte sans préciser quelle sera son utilité, rien n’empêche la banque de clôturer ensuite le compte lorsqu’elle aura réalisé à quelles fins il est utilisé. Le but est simple : forcer les auto-entrepreneurs à souscrire compte bancaire professionnel, dernier recours pour respecter la législation.
+> De fait, de nombreuses banques ont commencé à refuser tout simplement l’ouverture d’un compte dédié aux transactions d’un auto-entrepreneur. S’il est possible d’ouvrir un compte sans préciser quelle sera son utilité, rien n’empêche la banque de clôturer ensuite le compte lorsqu’elle aura réalisé à quelles fins il est utilisé. Le but est simple : forcer les auto-entrepreneurs à souscrire à un compte bancaire professionnel, dernier recours pour respecter la législation.
 
 Il existe beaucoup de banques qui acceptent les auto-entrepreneurs avec des
-offres allant de 5 à 20€ / mois mais si vous chercher des offres gratuites ca
+offres allant de 5 à 20€ / mois mais si vous cherchez des offres gratuites ça
 se complique. Il y a actuellement 3 banques où vous pouvez avoir un compte
 gratuit acceptant les auto-entrepreneurs mais il y a cependant quelques limitations.
 
@@ -376,14 +376,14 @@ Ref.
 
 ## [Draft] CFE
 
-Le CFE de Paris est 16,52% =>, mais il y a un paquet de ville avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
+Le CFE de Paris est 16,52% =>, mais il y a un paquet de villes avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
 
 https://www.data.gouv.fr/fr/datasets/impots-locaux/
 
 ## [Draft] divers
 
 - assurance, etc.
-- espace pro impots
+- espace pro impôts
 - Tax form: pas W-8BEN (individu) mais [W-8BEN-E](https://www.irs.gov/pub/irs-pdf/iw8bene.pdf) (entreprise)
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
