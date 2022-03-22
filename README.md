@@ -19,7 +19,7 @@
 
 ## Étude préliminaire
 
-Commençons par jeter un oeil à la [FAQ de YesWeHack](https://www.yeswehack.com/fr/entreprises/aide-faq/) :
+Commençons par jeter un œil à la [FAQ de YesWeHack](https://www.yeswehack.com/fr/entreprises/aide-faq/) :
 
 > ## Quelles sont les obligations légales, fiscales et sociales d’un hunter ?
 >
@@ -37,7 +37,7 @@ Commençons par jeter un oeil à la [FAQ de YesWeHack](https://www.yeswehack.com
 >
 > Afin de connaître ses obligations, le Hunter devra se rapprocher de son centre des impôts pour connaître les formalités applicables à sa situation et au statut qu’il aura choisi.
 
-Bon là c'est un peu fouilli mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
+Bon là c'est un peu fouillis mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
 
 Maintenant, regardons-les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/)
 
@@ -55,9 +55,9 @@ Continuons :
 >
 > Le Chercheur s’engage à accéder et utiliser la Plateforme dans le strict respect de la réglementation applicable en matière comptable, fiscale et sociale, notamment s’agissant des obligations d’immatriculation et de déclaration auprès de l’administration fiscale et les organismes de sécurité sociale dont il dépend.
 
-Bon là c'est clairement comme le dernier paragraphe de la FAQ de YesWeHack: "Vous avez des devoirs/obligations, maintenant débrouiller vous !". Normalement à ce stade vous êtes confus,vous n'avez pas compris grand-chose, vous ne savez toujours pas ce que vous devez ou pouvez faire et vous n'avez pas plus de réponses qu'au départ, mais plutôt des questions supplémentaires.
+Bon là c'est clairement comme le dernier paragraphe de la FAQ de YesWeHack: "Vous avez des devoirs/obligations, maintenant débrouillez vous !". Normalement à ce stade vous êtes confus, vous n'avez pas compris grand-chose, vous ne savez toujours pas ce que vous devez ou pouvez faire et vous n'avez pas plus de réponses qu'au départ, mais plutôt des questions supplémentaires.
 
-Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout cas, il y a peut être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçues et ce que vous aurez (ou pas) déclaré.
+Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout ça, il y a peut être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçues et ce que vous aurez (ou pas) déclaré.
 
 > ## 7.3 Responsabilités administratives et fiscales de Yogosha concernant les chercheurs dont la résidence fiscale est en France
 >
