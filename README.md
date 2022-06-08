@@ -2,7 +2,7 @@
 
 > Quelques conseils autour des obligations légales, fiscales et juridiques pour la pratique du Bug Bounty en France
 
-:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez-vous et vérifiez tout ce qui est écrit ici.
+:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez-vous et vérifiez tout ce qui est écrit ici. D’ailleurs les seuils et barèmes sont susceptibles d'être révisés tous les ans.
 
 ## TL;DR FAQ
 
@@ -136,14 +136,16 @@ Ref.
 
 ## Création d'une entreprise
 
-Entrepreneur individuel, Micro-entrepreneur/auto-entrepreneur, EIRL, SARL, EURL, SAS, SASU
+Entrepreneur individuel, Micro-entrepreneur/auto-entrepreneur, ~~EIRL~~, SARL, EURL, SAS, SASU
 
 ### Créer une entreprise seul
 
+<details>
+  <summary>Périmé 2021 - EIRL</summary>
 > Il existe 3 possibilités d'exercer Pour exercer une une activité en nom personnel soumise à l'impôt sur le revenu vous avez le choix entre trois statuts différents :
 >
 > - le statut de l'entrepreneur individuel (**EI**) ;
-> - le statut du **micro-entrepreneur** ;
+> - ~~le statut du **micro-entrepreneur** ;~~
 > - le statut de l'Entrepreneur Individuel à Responsabilité Limitée (**EIRL**).
 >
 > Etre entrepreneur individuel ou en votre nom personnel signifie que vous êtes personnellement responsable sur votre patrimoine des dettes résultant de votre activité professionnelle.
@@ -157,14 +159,24 @@ Ref.
 - [impots.gouv.fr - Exercice d'une activité en nom personnel][18] (voir le tableau comparatif des 3 status)
 - [impots.gouv.fr - Avantages et inconvénients des entreprises individuelles][19]
 
-Les 3 status sont des entreprises individuelles en nom propre où l'identité de l'entreprise correspond à celle de son dirigeant (le nom de l'entreprise comportera votre nom),
+Les 2 status sont des entreprises individuelles en nom propre où l'identité de l'entreprise correspond à celle de son dirigeant (le nom de l'entreprise comportera votre nom),
 et elle ne peut être constituée que d'une seule personne physique (vous, pas d'associés ou de salariés).
-La micro-entreprise est une entreprise individuelle qui bénéficie d'un régime simplifié.
-L'entreprise individuelle n'a donc aucun intérêt pour le bug bounty et la micro-entreprise est le status le plus utilisé par les hunters car très simple.
+La micro-entreprise est un un régime spécial de l'entreprise individuelle qui bénéficie d'un régime simplifié.
 Le gros défaut de la micro-entreprise reste la responsabilité, le dirigeant est indéfiniment responsable des dettes de son entreprise sur ses biens propres.
 L'Entrepreneur Individuel à Responsabilité Limitée (EIRL) permet à l’entrepreneur de protéger ses biens personnels, en créant un patrimoine affecté à son activité professionnelle distinct de son patrimoine privé. C'est une entreprise individuelle qui peut aussi profiter du régime simplifié de la micro-entreprise.
 L'autre différence avec l'EIRL c'est que le dirigeant peut opter pour l'IS (impôt sur les sociétés) au lieu de l'IR (impôt sur le revenu) et donc potentiellement bénéficier de déduction de rémunération dans les comptes de l'entreprise.
 Légèrement plus compliqué l'EIRL semble plus intéressante que la micro-entreprise pour limiter sa responsabilité.
+</details>
+
+> La [loi n°2022-172 du 14 février 2022 en faveur de l'activité professionnelle indépendante](https://www.legifrance.gouv.fr/dossierlegislatif/JORFDOLE000044125588/) modifie le statut de l’entrepreneur individuel afin de renforcer sa protection et de simplifier le transfert de son patrimoine professionnel. Elle crée un statut unique d’entrepreneur individuel, garantissant automatiquement la protection de son patrimoine personnel et supprime la possibilité de créer une EIRL à compter du 15 février 2022. Ce nouveau statut prévoit également la possibilité, pour tout entrepreneur individuel, d’opter pour l’assujettissement à l’impôt sur les sociétés.
+
+En gros, le status d'Entrepreneur Individuel à Responsabilité Limitée (**EIRL**) est supprimé et le status d'entrepreneur individuel (**EI**) par défaut devient l'ancien status d'EIRL.
+
+> Ce nouveau statut est plus protecteur : sauf option contraire, l’ensemble du patrimoine personnel de l’entrepreneur indépendant devient par défaut insaisissable par ses créanciers professionnels. Ainsi, les biens utiles à l'exercice de l'activité professionnelle seront transférés du patrimoine privé de l’entrepreneur au patrimoine professionnel. La séparation des patrimoines s’effectuera automatiquement, sans démarche administrative ou information des créanciers.
+
+Ref.
+
+- [impots.gouv.fr - Qu’est-ce que le statut unique d’entrepreneur individuel ?][38]
 
 Il existe deux autre status d'entreprise unipersonnelle (1 seule personne) mais non individuelle (pas en votre nom propre) :
 
@@ -189,9 +201,8 @@ Ces status d'entreprise ne nous intéressent pas dans le cadre du bug bounty.
 
 ### Conclusion
 
-Les 3 status qui vont intéressés les hunters Français sont donc la micro-entreprise, l'EIRL et plus rarement l'EURL.
-Nous avons déjà expliqué l'intérêt de l'EIRL par rapport à la micro-entreprise au niveau de la responsabilité.
-Ce qui fera pencher entre l'EIRL (ou micro-entreprise) et l'EURL sera lié au régime fiscal, notamment du plafond de revenus.
+Les 2 status qui vont intéressés les hunters Français sont donc l'EI et plus rarement l'EURL.
+Ce qui fera pencher entre l'EI et l'EURL sera lié au régime fiscal, notamment du plafond de revenus.
 
 ## Les régimes fiscaux des entreprises individuelles
 
@@ -206,12 +217,9 @@ Pour des bénéfices non commerciaux (BNC) :
 
 Ici l'on comprend bien que l'on pourra ne bénéficier du régime de micro-entreprise
 qu'en dessous de ce palier de revenus.
-Au dessus de ~70k€ il faudra passer soit à une EIRL au régime réel ou de déclaration contrôlée,
+Au dessus de ~70k€ il faudra passer soit au régime réel ou de déclaration contrôlée,
 soit à une EURL au régime de l’impôt sur les sociétés (IS) ou au régime des
 sociétés de personnes (dans le cadre d'une personne morale) [[20][20]][[21][21]].
-
-Point de vue personnel : je pense opter pour l'EIRL afin de conserver un status simple tout en limitant mes responsabilités, et en partant du régime micro entreprise
-qui est le plus simple et passer au régime réel simplifié si jamais j'ai le chance de dépasser le plafond de revenus.
 
 ## Types de bénéfices : BIC, BNC, etc.
 
@@ -230,6 +238,64 @@ Ref.
 
 - [economie.gouv.fr - Impôt sur le revenu : BIC, BNC, comment ça marche ?][22]
 - [shine.fr - Êtes-vous en BIC ou en BNC ? Le guide pour tout savoir][23]
+
+## Impôts
+
+Bon clairement malgré le baratin sur les status simplifiés, ca reste compliqué.
+
+En tant qu'entrepreneur individuel il y a un choix à faire parmis deux options :
+
+- **IR** : [impôt sur le revenu][39]
+- **IS** : [impôt sur les sociétés][40]
+
+> L’imposition à l’IR se traduit par une imposition directe des bénéfices au nom de l’entrepreneur ou au nom de chaque associé en cas d’exercice en société.
+>
+> A contrario, le choix de l’IS fait supporter l’imposition des bénéfices sur l’entreprise directement. L’entrepreneur ou les associés sont quant à eux imposés personnellement sur les rémunérations et les dividendes qu’ils perçoivent.
+
+Lorsque l’entreprise est soumise à l’impôt sur le revenu, l’imposition s’applique directement au niveau de l’entrepreneur. L’entreprise ne subit aucune imposition fiscale. Les bénéfices réalisés par l’intermédiaire de l’entreprise sont imposés dans la catégorie dont relève l’activité exercée : ici BNC o.
+Le choix de l’imposition à l’IR permet, pour les activités réduites, de profiter des régimes d’imposition ultra-simplifiés : micro-BNC ou statut auto-entrepreneur.
+
+Lorsque l’entreprise est soumise à l’IS, l’imposition des bénéfices est appliquée directement au nom de l’entreprise. L’IS est calculé au taux normal mais un taux réduit de 15% sur les 38 120 premiers euros de bénéfices est possible sous conditions. Dans cette configuration, l’entrepreneur n'est imposable personnellement à l’IR que sur les rémunérations et les dividendes qu’il perçoit.
+
+Dans notre cas de figure l'IR est plus simple et l'IS apporte de la complexité sans en tirer d'intérêt.
+
+Ref.
+
+- [lecoindesentrepreneurs - IR ou IS ? Le choix du régime fiscal de l’entreprise][41]
+
+> Pour les revenus des indépendants (ici de bénéfices non commerciaux BNC, l'administration fiscale prélève directement le montant de l'impôt correspondant aux revenus professionnels sur la base de la dernière situation fiscale connue. Ce prélèvement prend la forme d'acomptes mensuels prélevés le 15 de chaque mois, sauf en cas d'option pour un prélèvement trimestriel.
+>
+> Chaque année, la déclaration de revenus reste nécessaire pour déterminer le taux de prélèvement à la source applicable à compter du mois de septembre de l'année (et jusqu'en août de l'année suivante) et le montant définitif de l'impôt sur le revenu de l'année précédente. Si les prélèvements ont été supérieurs à l'impôt dû, l'excédent sera remboursé par virement à l'été. Dans le cas contraire, le solde sera à payer par prélèvement sur le compte bancaire mentionné dans la déclaration de revenus.
+
+En gros chaque année vous déclarerez les revenus de votre entreprise individuelle lors de votre déclaration de l'impôt sur le revenu et vous payerez l'impôt dû l'année suivante sous forme de mensuialité avec uen régulation en fin d'année.
+
+Ref.
+
+- [economie.gouv.fr - Le prelèvement à la source des indépendants : mode d'emploi](https://www.economie.gouv.fr/entreprises/prelevement-source-independants-micro-entrepreneurs-auto-entrepreneur)
+
+> Le VFL (versement forfétaire libératoire) est une option de paiement de l’impôt sur le revenu auprès de l’Urssaf, qui collecte l’impôt pour le compte de la direction générale des Finances publiques (DGFiP) sur une périodicité mensuelle ou trimestrielle.
+>
+> Ce dispositif consiste à effectuer des versements, communs avec ceux des cotisations sociales, tout au long de l’année, au fur et à mesure des encaissements. Cette modalité de paiement libère le micro‑entrepreneur du versement de l’impôt sur le revenu au titre des résultats de son activité auprès de la DGFiP et ne donne pas lieu à une régularisation l'année suivante.
+
+Ref.
+
+- [economie.gouv.fr - Comment fonctionne le versement libératoire de l’impôt sur le revenu ?][42]
+
+En gros ca permet de payer l'IR au fur et à mesure sur l'année en cours, et l'IR est collecté par l'URSSAF en même temps que les cotisations sociales (pas de prélèvement à la source). Cependant il ne faut pas dépasser un certain seuil de revenu.
+
+> Le versement forfaitaire libératoire est une option est ouverte uniquement aux micro-entrepreneurs dont le revenu fiscal de référence de l'année N-2 (RFR) n'excède pas un certain seuil pour une part de quotient familial.
+
+Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de forte chance qu'a lui seul notre salaire dépasse ce seuil, il nous sera alros impossible d'obter pour le VFL.
+
+Pour l'IR au régime déclaratif spécial BNC, le chiffre d'affaires de l'année doit figurer sur la déclaration des revenus n°2042C-PRO (déclaration complémentaire des revenus des professions non salariées), selon les dates de déclaration de l'IR.
+
+Dans le [formulaire n°2042][43], on devrait principlament remplir le champ `5HQ`.
+
+Il existe un [espace professionnel](https://cfspro-idp.impots.gouv.fr/) sur le site des impôt qui sera nécessaire pour payer la CFE. On peut être exonéré la 1ere année.
+
+Ref.
+
+- [impots.gouv.fr - dois-je payer une cotisation foncière des entreprises (CFE) et créer un espace professionnel sécurisé ?][44]
 
 ## Les démarches
 
@@ -298,7 +364,7 @@ La franchise reste applicable pendant l’année au cours de laquelle a lieu le 
 
 Avec le **régime réel simplifié de TVA** il faut payer des acomptes de TVA et établir une déclaration annuelle de TVA. Si le montant de la taxe est supérieur à 15 000 €, il faut déposer une déclaration de TVA mensuellement à compter de l’exercice suivant.
 
-En récapitulatif:
+En récapitulatif :
 
 - régime de la franchise de TVA (pas de TVA) : CA < 34 400€
 - régime réel simplifié de TVA : 34 400 à 238 000€
@@ -376,6 +442,17 @@ Ref.
 
 ## [Draft] CFE
 
+La Cotisation foncière des entreprises (CFE) est redevable chaque année, dans
+le cadre d'une entreprise individuelle pour du Bu Bounty notre local de travail
+est notre domicile. La CFE sera basée sur celui-ci.
+
+À noter : les entreprises redevables de la cotisation minimum réalisant un chiffre d'affaires ou de recettes inférieur ou égal à 5 000 € sont exonérées de CFE (art. 1649 D I-1° du CGI).
+
+Ref.
+
+- [impots.gouv.fr - Impôts locaux : CET (CFE et CVAE) et TF][45]
+- [entreprendre.service-public.fr - Cotisation foncière des entreprises (CFE)][46]
+
 Le CFE de Paris est 16,52% =>, mais il y a un paquet de villes avec des taux aux alentours de 7%. Eg à ANGLEFORT (01350) le taux est de 4% en 2018.
 
 https://www.data.gouv.fr/fr/datasets/impots-locaux/
@@ -383,7 +460,6 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 ## [Draft] divers
 
 - assurance, etc.
-- espace pro impôts
 - Tax form: pas W-8BEN (individu) mais [W-8BEN-E](https://www.irs.gov/pub/irs-pdf/iw8bene.pdf) (entreprise)
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
@@ -423,3 +499,12 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 [35]:https://www.capitaine-banque.com/actualite-banque/auto-entrepreneur-compte-bancaire-pro-obligatoire/
 [36]:https://www.service-public.fr/professionnels-entreprises/vosdroits/F23266
 [37]:https://independant.io/meilleurs-comptes-bancaires-auto-entrepreneur-gratuits/
+[38]:https://www.impots.gouv.fr/professionnel/questions/quest-ce-que-le-statut-unique-dentrepreneur-individuel
+[39]:https://www.economie.gouv.fr/particuliers/tranches-imposition-impot-revenu
+[40]:https://www.economie.gouv.fr/entreprises/impot-societes-IS
+[41]:https://www.lecoindesentrepreneurs.fr/ir-ou-is-regime-fiscal/
+[42]:https://www.economie.gouv.fr/entreprises/micro-entreprise-auto-entreprise-versement-liberatoire-impot-revenu
+[43]:https://www.impots.gouv.fr/formulaire/2042/declaration-des-revenus
+[44]:https://www.impots.gouv.fr/professionnel/questions/je-suis-micro-entrepreneur-dois-je-payer-une-cotisation-fonciere-des
+[45]:https://www.impots.gouv.fr/professionnel/cet-cfe-et-cvae
+[46]:https://entreprendre.service-public.fr/vosdroits/F23547
