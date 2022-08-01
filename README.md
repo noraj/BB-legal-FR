@@ -267,7 +267,7 @@ Ref.
 >
 > Chaque année, la déclaration de revenus reste nécessaire pour déterminer le taux de prélèvement à la source applicable à compter du mois de septembre de l'année (et jusqu'en août de l'année suivante) et le montant définitif de l'impôt sur le revenu de l'année précédente. Si les prélèvements ont été supérieurs à l'impôt dû, l'excédent sera remboursé par virement à l'été. Dans le cas contraire, le solde sera à payer par prélèvement sur le compte bancaire mentionné dans la déclaration de revenus.
 
-En gros chaque année vous déclarerez les revenus de votre entreprise individuelle lors de votre déclaration de l'impôt sur le revenu et vous payerez l'impôt dû l'année suivante sous forme de mensuialité avec uen régulation en fin d'année.
+En gros chaque année vous déclarerez les revenus de votre entreprise individuelle lors de votre déclaration de l'impôt sur le revenu et vous payerez l'impôt dû l'année suivante sous forme de mensuialité avec une régulation en fin d'année.
 
 Ref.
 
