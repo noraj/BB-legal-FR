@@ -285,7 +285,7 @@ En gros ca permet de payer l'IR au fur et à mesure sur l'année en cours, et l'
 
 > Le versement forfaitaire libératoire est une option est ouverte uniquement aux micro-entrepreneurs dont le revenu fiscal de référence de l'année N-2 (RFR) n'excède pas un certain seuil pour une part de quotient familial.
 
-Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de forte chance qu'a lui seul notre salaire dépasse ce seuil, il nous sera alros impossible d'obter pour le VFL.
+Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de forte chance qu'a lui seul notre salaire dépasse ce seuil, il nous sera alors impossible d'obter pour le VFL.
 
 Pour l'IR au régime déclaratif spécial BNC, le chiffre d'affaires de l'année doit figurer sur la déclaration des revenus n°2042C-PRO (déclaration complémentaire des revenus des professions non salariées), selon les dates de déclaration de l'IR.
 
