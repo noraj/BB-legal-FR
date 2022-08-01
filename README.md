@@ -252,7 +252,7 @@ En tant qu'entrepreneur individuel il y a un choix à faire parmis deux options 
 >
 > A contrario, le choix de l’IS fait supporter l’imposition des bénéfices sur l’entreprise directement. L’entrepreneur ou les associés sont quant à eux imposés personnellement sur les rémunérations et les dividendes qu’ils perçoivent.
 
-Lorsque l’entreprise est soumise à l’impôt sur le revenu, l’imposition s’applique directement au niveau de l’entrepreneur. L’entreprise ne subit aucune imposition fiscale. Les bénéfices réalisés par l’intermédiaire de l’entreprise sont imposés dans la catégorie dont relève l’activité exercée : ici BNC o.
+Lorsque l’entreprise est soumise à l’impôt sur le revenu, l’imposition s’applique directement au niveau de l’entrepreneur. L’entreprise ne subit aucune imposition fiscale. Les bénéfices réalisés par l’intermédiaire de l’entreprise sont imposés dans la catégorie dont relève l’activité exercée : ici BNC.
 Le choix de l’imposition à l’IR permet, pour les activités réduites, de profiter des régimes d’imposition ultra-simplifiés : micro-BNC ou statut auto-entrepreneur.
 
 Lorsque l’entreprise est soumise à l’IS, l’imposition des bénéfices est appliquée directement au nom de l’entreprise. L’IS est calculé au taux normal mais un taux réduit de 15% sur les 38 120 premiers euros de bénéfices est possible sous conditions. Dans cette configuration, l’entrepreneur n'est imposable personnellement à l’IR que sur les rémunérations et les dividendes qu’il perçoit.
