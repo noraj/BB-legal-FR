@@ -440,6 +440,47 @@ Ref.
 - [service-public.fr - Comptabilité du micro-entrepreneur (régime micro-social)][36]
 - [independant.io - Les Meilleurs Comptes Bancaires Auto-Entrepreneur Gratuits en 2021][37]
 
+## Dénomination sociale, nom commercial et marque d'entreprise
+
+En tant qu'auto-entrepreneur, la **dénomination sociale** de l'entreprise est obligatoirement lié au nom de famille de l'entrepreneur, seuls les cas suivant sont possibles :
+
+- NOM (obligatoire, nom a minima)
+- Prénom NOM (optionnel, le prénom peut être ajouté)
+- Prénom NOM EIRL (la mention EIRL peut être ajouté dans le cadre d'une EIRL)
+
+> Dans le cadre de la création d'une entreprise individuelle (EI) ou d'une micro-entreprise, la dénomination sociale correspond obligatoirement à votre nom de famille, qui peut s'accompagner de votre prénom. Pourquoi ? Car l'identité juridique de l'entreprise individuelle est indissociable et strictement limitée à celle de son créateur : l'entrepreneur individuel.
+
+Si l'on souhaite avoir un site internet et/ou une identité propre, il peut être préférable d'ajouter un **nom commercial** à l'entreprise.
+
+> Le nom commercial permet d'identifier votre société et tout particulièrement l'exercice de son activité sur l'ensemble des documents commerciaux que vous produisez : factures, papier à en-tête, mais aussi cartes de visite. Il peut être similaire à la dénomination sociale comme s'en distinguer afin de mieux décrire, auprès de vos clients, votre offre de service.
+>
+> Le choix d'un nom commercial, bien que facultatif, doit être déclaré lors de l'[immatriculation au registre du commerce et des sociétés (RSC)](https://www.economie.gouv.fr/entreprises/registre-commerce-societes-rcs).
+
+Cela peut être fait à la création de l'entreprise ou être ajouté / modifié a posteriori. Et cette formalité doit être déclarée au CFE (centre de formalités des entreprises, comprendre l'URSSAF) / RCS.
+
+Évidement le nom commercial doit légalement ne pas être identique, ressemblant ou similaire à celui d'un concurrent. On peut consulter les dénominations sociales et noms commerciaux enregistrés sur le site [infogreffe.fr](https://www.infogreffe.fr/recherche-siret-entreprise/chercher-siret-entreprise.html).
+
+Le nom commercial apporte une protection limitée (voir l'article portail-autoentrepreneur.fr).
+
+Pour aller plus loin, il est possible de déposer une **marque d’entreprise** auprès de l'INPI (Institut National de la Propriété Industrielle) afin de bénéficier d'une protection renforcée. La [base de l'INPI](https://data.inpi.fr/) est consultable dans le but de vérifier si une marque similaire est déjà déposée.
+
+Ref.
+
+- [economie.gouv.fr - Pourquoi et comment changer le nom de votre entreprise ?][47]
+- [portail-autoentrepreneur.fr - Peut-on utiliser un nom commercial en auto-entreprise ?][48]
+
+## Vie privée
+
+En tant qu'auto-entrepreneur BNC, il y a de forte chance que votre siège social soit votre domicile personnel. Afin de protéger sa vie privée et sa sécurité, il est judicieux de limiter l'accès de ses données à caractère personnel dans la base SIRENE, afin que, par exemple, votre adresse ne soit pas publique.
+
+Afin de bénéficier de la protection, il s'agit d'une simple case à cocher dans le formulaire de création d'entreprise ou de changement d'adresse.
+
+Une fois la protection activée, les sites [infogreffe.fr](https://www.infogreffe.fr/) ou [societe.com](https://www.societe.com/) ne renverront plus rien du tout quand l'on cherchera le SIREN ou SIRET de l'entreprise, comme si celle-ci n'existait pas.
+
+En cherchant le SIREN ou SIRET sur [numero-siret.com](https://www.numero-siret.com/search-k.php) seuls les SIREN ou SIRET seront affichés et plus le nom ou l'adresse. Le site [sirene.fr](https://www.sirene.fr/sirene/public/recherche) affichera la commune, l'APE, la catégorie juridique mais toutes les informations personnelles seront masquées. Cela permet toutefois de confirmer que l'entreprise existe. De même, [avis-situation-sirene.insee.fr](https://avis-situation-sirene.insee.fr/) permet de vérifier que l'entreprise existe : si celle-ci est protégée, il faudra s'authentifier avec FranceConnect afin de consulter les informations (seul vous pourrez les voir), sinon si elle n'est pas protégée, les informations seront disponibles directement.
+
+Enfin, pour modifier le statut de diffusion au répertoire SIRENE sans avoir à déclarer une modification de l'entreprise au CFE, il est possible de faire la démarche sur [statut-diffusion-sirene.insee.fr](https://statut-diffusion-sirene.insee.fr/) en s'authentifiant avec FranceConnect.
+
 ## [Draft] CFE
 
 La Cotisation foncière des entreprises (CFE) est redevable chaque année, dans
@@ -508,3 +549,5 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 [44]:https://www.impots.gouv.fr/professionnel/questions/je-suis-micro-entrepreneur-dois-je-payer-une-cotisation-fonciere-des
 [45]:https://www.impots.gouv.fr/professionnel/cet-cfe-et-cvae
 [46]:https://entreprendre.service-public.fr/vosdroits/F23547
+[47]:https://www.economie.gouv.fr/entreprises/changer-nom-denomination-sociale-entreprise
+[48]:https://www.portail-autoentrepreneur.fr/academie/creation-auto-entreprise/nom-commercial
