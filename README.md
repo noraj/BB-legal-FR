@@ -19,7 +19,7 @@
 
 ## Étude préliminaire
 
-Commençons par jeter un œil à la [FAQ de YesWeHack](https://www.yeswehack.com/fr/entreprises/aide-faq/) :
+Commençons par jeter un œil à la [FAQ de YesWeHack](https://www.yeswehack.com/fr/entreprises/aide-faq/) (lient mort, il y a tout de même une [page facturation](https://helpcenter.yeswehack.io/billing-information) dans leur base de connaissances) :
 
 > ## Quelles sont les obligations légales, fiscales et sociales d’un hunter ?
 >
@@ -39,7 +39,7 @@ Commençons par jeter un œil à la [FAQ de YesWeHack](https://www.yeswehack.com
 
 Bon là c'est un peu fouillis mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
 
-Maintenant, regardons-les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/)
+Maintenant, regardons-les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/) (lien mort, il y a maintenant des [CGV](https://26653563.fs1.hubspotusercontent-eu1.net/hubfs/26653563/Legal%20documents%20available%20on%20Yogosha%20website/%5BFran%C3%A7ais%5D%20CGV%20Yogosha%20Plateforme%20V3.1_2023.pdf)) :
 
 > ## 3.1 Création et utilisation du Compte Utilisateur
 >
