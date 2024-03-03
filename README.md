@@ -281,7 +281,7 @@ Ref.
 
 - [economie.gouv.fr - Comment fonctionne le versement libératoire de l’impôt sur le revenu ?][42]
 
-En gros ca permet de payer l'IR au fur et à mesure sur l'année en cours, et l'IR est collecté par l'URSSAF en même temps que les cotisations sociales (pas de prélèvement à la source). Cependant il ne faut pas dépasser un certain seuil de revenu.
+En gros ça permet de payer l'IR au fur et à mesure sur l'année en cours, et l'IR est collecté par l'URSSAF en même temps que les cotisations sociales (pas de prélèvement à la source). Cependant, il ne faut pas dépasser un certain seuil de revenu.
 
 > Le versement forfaitaire libératoire est une option est ouverte uniquement aux micro-entrepreneurs dont le revenu fiscal de référence de l'année N-2 (RFR) n'excède pas un certain seuil pour une part de quotient familial.
 
@@ -481,6 +481,12 @@ En cherchant le SIREN ou SIRET sur [numero-siret.com](https://www.numero-siret.c
 
 Enfin, pour modifier le statut de diffusion au répertoire SIRENE sans avoir à déclarer une modification de l'entreprise au CFE, il est possible de faire la démarche sur [statut-diffusion-sirene.insee.fr](https://statut-diffusion-sirene.insee.fr/) en s'authentifiant avec FranceConnect.
 
+## Paiements internationaux et conversion de devises
+
+Vidéo :
+
+[![](https://img.youtube.com/vi/xJiHpMvNP3I/mqdefault.jpg)](https://www.youtube.com/watch?v=xJiHpMvNP3I)
+
 ## [Draft] CFE
 
 La Cotisation foncière des entreprises (CFE) est redevable chaque année, dans
@@ -501,7 +507,7 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 ## [Draft] divers
 
 - assurance, etc.
-- Tax form: pas W-8BEN (individu) mais [W-8BEN-E](https://www.irs.gov/pub/irs-pdf/iw8bene.pdf) (entreprise)
+- Tax form : pas W-8BEN (individu) mais [W-8BEN-E](https://www.irs.gov/pub/irs-pdf/iw8bene.pdf) (entreprise)
 
 [1]:https://travail-emploi.gouv.fr/droit-du-travail/lutte-contre-le-travail-illegal-10802/article/les-sanctions-liees-au-travail-illegal
 [2]:https://www.legifrance.gouv.fr/codes/id/LEGIARTI000038602150/2019-07-01/
