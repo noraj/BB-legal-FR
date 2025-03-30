@@ -2,7 +2,7 @@
 
 > Quelques conseils autour des obligations légales, fiscales et juridiques pour la pratique du Bug Bounty en France
 
-:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'information sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez-vous et vérifiez tout ce qui est écrit ici. D’ailleurs les seuils et barèmes sont susceptibles d'être révisés tous les ans.
+:warning: Les conseils mentionnés ici sont simplement des travaux de collecte d'informations sur le sujet et n'ont en aucun cas une valeur juridique, leur exactitude n'est pas garantie et ne sauraient en aucun cas impliquer ma responsabilité. Nul n'est censé ignorer la loi, renseignez-vous et vérifiez tout ce qui est écrit ici. D’ailleurs, les seuils et barèmes sont susceptibles d'être révisés tous les ans.
 
 ## TL;DR FAQ
 
@@ -37,7 +37,7 @@ Commençons par jeter un œil à la [FAQ de YesWeHack](https://www.yeswehack.com
 >
 > Afin de connaître ses obligations, le Hunter devra se rapprocher de son centre des impôts pour connaître les formalités applicables à sa situation et au statut qu’il aura choisi.
 
-Bon là c'est un peu fouillis mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
+Bon là c'est un peu fouillis, mais on comprend vite qu'on va devoir créer une entreprise, déclarer et payer des impôts et qu'il y a des histoires de seuils et de TVA.
 
 Maintenant, regardons-les [CGU de Yogosha](https://yogosha.com/fr/conditions-generales-dutilisation/) (lien mort, il y a maintenant des [CGV](https://26653563.fs1.hubspotusercontent-eu1.net/hubfs/26653563/Legal%20documents%20available%20on%20Yogosha%20website/%5BFran%C3%A7ais%5D%20CGV%20Yogosha%20Plateforme%20V3.1_2023.pdf)) :
 
@@ -57,7 +57,7 @@ Continuons :
 
 Bon là c'est clairement comme le dernier paragraphe de la FAQ de YesWeHack: "Vous avez des devoirs/obligations, maintenant débrouillez vous !". Normalement à ce stade vous êtes confus, vous n'avez pas compris grand-chose, vous ne savez toujours pas ce que vous devez ou pouvez faire et vous n'avez pas plus de réponses qu'au départ, mais plutôt des questions supplémentaires.
 
-Vous êtes tenté de vous dire "Bon ! Ca à l'air compliqué et rébarbatif tout ça, il y a peut être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçues et ce que vous aurez (ou pas) déclaré.
+Vous êtes tenté de vous dire "Bon ! Ça a l'air compliqué et rébarbatif tout ça, il y a peut-être moyen de passer à côté". Et bien non les plateformes déclarent tout et si vous n'êtes pas dans les clous, il y aura bientôt une grosse différence entre les informations que les autorités fiscales auront reçues et ce que vous aurez (ou pas) déclaré.
 
 > ## 7.3 Responsabilités administratives et fiscales de Yogosha concernant les chercheurs dont la résidence fiscale est en France
 >
@@ -119,9 +119,9 @@ Ref.
 ### _Une simple déclaration comme revenus exceptionnels liés à une activité non professionnelle suffit._
 
 **Faux**, en aucun cas une activité à but lucratif ne rentre dans les cas prévus pour les revenus exceptionnels.
-En pratique, il y a cependant une tolérance **officieuse** si le revenu est ponctuel et faible (seuil non défini) donc par exemple si vous gagnez 1 fois 500€ dans l'année pas besoin de créer une entreprise mais dès que vous dépasserez quelques milliers d'euros
+En pratique, il y a cependant une tolérance **officieuse** si le revenu est ponctuel et faible (seuil non défini) donc par exemple si vous gagnez une fois 500€ dans l'année pas besoin de créer une entreprise mais dès que vous dépasserez quelques milliers d'euros
 ou mènerez cette activité de manière récurrente il vous faudra créer une entreprise.
-Comme vous ne pourrez pas rattacher de manière rétro-active des revenus à votre entreprise, il faut prévoir sa création à l'avance si vous prévoyez de pratiquer la chasse aux bugs.
+Comme vous ne pourrez pas rattacher de manière rétroactive des revenus à votre entreprise, il faut prévoir sa création à l'avance si vous prévoyez de pratiquer la chasse aux bugs.
 
 En résumé:
 
@@ -185,7 +185,7 @@ Il existe deux autre status d'entreprise unipersonnelle (1 seule personne) mais 
 
 La SASU est un cas particulier de SAS, elle va être beaucoup plus complexe que les entreprises individuelles et son principal avantage est de pouvoir émettre
 des actions, pour faire du bug bounty cela ne va pas du tout nous intéresser.
-L'EURL est un cas particulier de SARL, là aussi beaucoup plus complexe et génère d'avantage d'obligations juridique et comptables, l'intérêt se en cas de dépassement des plafonds
+L'EURL est un cas particulier de SARL, là aussi beaucoup plus complexe et génère davantage d'obligations juridiques et comptables, l'intérêt se trouve en cas de dépassement des plafonds
 de revenus des entreprises individuelles (nous verrons ce point par la suite).
 
 Ref.
@@ -195,13 +195,13 @@ Ref.
 
 ### Créer une entreprise à plusieurs
 
-Il existe de nombreux autres status d'entreprises qui requièrent au minimum 2 associés : SA, SARL, SNC, certaines SEL, etc.
+Il existe de nombreux autres statuts d'entreprises qui requièrent au minimum 2 associés : SA, SARL, SNC, certaines SEL, etc.
 
-Ces status d'entreprise ne nous intéressent pas dans le cadre du bug bounty.
+Ces statuts d'entreprise ne nous intéressent pas dans le cadre du bug bounty.
 
 ### Conclusion
 
-Les 2 status qui vont intéressés les hunters Français sont donc l'EI et plus rarement l'EURL.
+Les 2 statuts qui vont intéressés les hunters français sont donc l'EI et plus rarement l'EURL.
 Ce qui fera pencher entre l'EI et l'EURL sera lié au régime fiscal, notamment du plafond de revenus.
 
 ## Les régimes fiscaux des entreprises individuelles
@@ -243,7 +243,7 @@ Ref.
 
 Bon clairement malgré le baratin sur les status simplifiés, ca reste compliqué.
 
-En tant qu'entrepreneur individuel il y a un choix à faire parmis deux options :
+En tant qu'entrepreneur individuel, il y a un choix à faire parmis deux options :
 
 - **IR** : [impôt sur le revenu][39]
 - **IS** : [impôt sur les sociétés][40]
@@ -267,13 +267,13 @@ Ref.
 >
 > Chaque année, la déclaration de revenus reste nécessaire pour déterminer le taux de prélèvement à la source applicable à compter du mois de septembre de l'année (et jusqu'en août de l'année suivante) et le montant définitif de l'impôt sur le revenu de l'année précédente. Si les prélèvements ont été supérieurs à l'impôt dû, l'excédent sera remboursé par virement à l'été. Dans le cas contraire, le solde sera à payer par prélèvement sur le compte bancaire mentionné dans la déclaration de revenus.
 
-En gros chaque année vous déclarerez les revenus de votre entreprise individuelle lors de votre déclaration de l'impôt sur le revenu et vous payerez l'impôt dû l'année suivante sous forme de mensuialité avec une régulation en fin d'année.
+En gros chaque année vous déclarerez les revenus de votre entreprise individuelle lors de votre déclaration de l'impôt sur le revenu et vous payerez l'impôt dû l'année suivante sous forme de mensualité avec une régulation en fin d'année.
 
 Ref.
 
 - [economie.gouv.fr - Le prelèvement à la source des indépendants : mode d'emploi](https://www.economie.gouv.fr/entreprises/prelevement-source-independants-micro-entrepreneurs-auto-entrepreneur)
 
-> Le VFL (versement forfétaire libératoire) est une option de paiement de l’impôt sur le revenu auprès de l’Urssaf, qui collecte l’impôt pour le compte de la direction générale des Finances publiques (DGFiP) sur une périodicité mensuelle ou trimestrielle.
+> Le VFL (versement forfaitaire libératoire) est une option de paiement de l’impôt sur le revenu auprès de l’URSSAF, qui collecte l’impôt pour le compte de la direction générale des Finances publiques (DGFiP) sur une périodicité mensuelle ou trimestrielle.
 >
 > Ce dispositif consiste à effectuer des versements, communs avec ceux des cotisations sociales, tout au long de l’année, au fur et à mesure des encaissements. Cette modalité de paiement libère le micro‑entrepreneur du versement de l’impôt sur le revenu au titre des résultats de son activité auprès de la DGFiP et ne donne pas lieu à une régularisation l'année suivante.
 
@@ -281,15 +281,15 @@ Ref.
 
 - [economie.gouv.fr - Comment fonctionne le versement libératoire de l’impôt sur le revenu ?][42]
 
-En gros ça permet de payer l'IR au fur et à mesure sur l'année en cours, et l'IR est collecté par l'URSSAF en même temps que les cotisations sociales (pas de prélèvement à la source). Cependant, il ne faut pas dépasser un certain seuil de revenu.
+En gros, ça permet de payer l'IR au fur et à mesure sur l'année en cours, et l'IR est collecté par l'URSSAF en même temps que les cotisations sociales (pas de prélèvement à la source). Cependant, il ne faut pas dépasser un certain seuil de revenu.
 
 > Le versement forfaitaire libératoire est une option est ouverte uniquement aux micro-entrepreneurs dont le revenu fiscal de référence de l'année N-2 (RFR) n'excède pas un certain seuil pour une part de quotient familial.
 
-Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de forte chance qu'a lui seul notre salaire dépasse ce seuil, il nous sera alors impossible d'obter pour le VFL.
+Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de fortes chances qu'à lui seul notre salaire dépasse ce seuil, il nous sera alors impossible d'obter pour le VFL.
 
 Pour l'IR au régime déclaratif spécial BNC, le chiffre d'affaires de l'année doit figurer sur la déclaration des revenus n°2042C-PRO (déclaration complémentaire des revenus des professions non salariées), selon les dates de déclaration de l'IR.
 
-Dans le [formulaire n°2042][43], on devrait principlament remplir le champ `5HQ`.
+Dans le [formulaire n°2042][43], on devrait principalement remplir le champ `5HQ`.
 
 Il existe un [espace professionnel](https://cfspro-idp.impots.gouv.fr/) sur le site des impôt qui sera nécessaire pour payer la CFE. On peut être exonéré la 1ere année.
 
@@ -300,7 +300,7 @@ Ref.
 ## Les démarches
 
 La page [Création d'entreprise : les démarches à effectuer][25] nous donne un
-aperçu haut niveau des démarches à entreprendre pour la création de son entreprise :
+aperçu au niveau des démarches à entreprendre pour la création de son entreprise :
 
 - Choisir le statut juridique de votre entreprise (abordé plus haut ici)
 - Les conséquences fiscales du choix du statut juridique de votre entreprise (abordé plus haut ici)
@@ -329,10 +329,10 @@ Une page intéressante est aussi [Tout savoir sur la micro-entreprise][28] qui r
 
 ### Création de l'entreprise
 
-A la création de votre entreprise vous recevrez notamment les courriers postaux
+À la création de votre entreprise, vous recevrez notamment les courriers postaux
 suivants:
 
-- Une lettre de la _DGFIP_ (Direction Général des FInances Publiques), plus précisément du _Service des Impôts des Entreprises_ rappelant les démarches à suivre en terme de déclaration d'impôt ainsi qu'un _memento fiscal_ concernant votre activité et vos obligations fiscales (type d'impôt (BNC, TVA, CFE) et régime d'imposition)
+- Une lettre de la _DGFIP_ (Direction Général des FInances Publiques), plus précisément du _Service des Impôts des Entreprises_ rappelant les démarches à suivre en termes de déclaration d'impôt ainsi qu'un _memento fiscal_ concernant votre activité et vos obligations fiscales (type d'impôt (BNC, TVA, CFE) et régime d'imposition)
 - Un _Certificat d'inscription au Répertoire des Entreprises et des Établissements_ (SIRENE) envoyé par l'_INSEE_ contenant la description de la personne et de l'établissement où vous trouverez tous les numéros utils
 - Une _Notification d'affiliation_ à la sécurité sociale (CPAM) envoyé par l'_URSSAF_
 - Potentiellement une lettre du _Greffe du tribunal de commerce_ en cas de non conformité de votre dossier
@@ -347,7 +347,7 @@ TODO
 
 ## TVA
 
-> La TVA est une taxe collectée par les entreprises et reversée à l’Etat. L'entreprise collecte la TVA sur le montant de ses ventes, c'est la TVA collectée. En contrepartie, elle peut déduire de la TVA payer sur ses propres achats auprès de ses fournisseurs, c'est la TVA déductible. L'entreprise versera à l'État la différence entre la TVA collectée et la TVA déductible.
+> La TVA est une taxe collectée par les entreprises et reversée à l’Etat. L'entreprise collecte la TVA sur le montant de ses ventes, c'est la TVA collectée. En contrepartie, elle peut déduire de la TVA payée sur ses propres achats auprès de ses fournisseurs, c'est la TVA déductible. L'entreprise versera à l'État la différence entre la TVA collectée et la TVA déductible.
 
 Une entreprise individuelle peut être exonérée de TVA en optant pour le **régime de la franchise de TVA** et il n'y a donc pas besoin de facturer de TVA.
 Par contre vous ne pouvez pas non plus récupérer celle sur vos achats.
@@ -396,9 +396,9 @@ courant en son nom suffit (différent du votre).
 > De fait, de nombreuses banques ont commencé à refuser tout simplement l’ouverture d’un compte dédié aux transactions d’un auto-entrepreneur. S’il est possible d’ouvrir un compte sans préciser quelle sera son utilité, rien n’empêche la banque de clôturer ensuite le compte lorsqu’elle aura réalisé à quelles fins il est utilisé. Le but est simple : forcer les auto-entrepreneurs à souscrire à un compte bancaire professionnel, dernier recours pour respecter la législation.
 
 Il existe beaucoup de banques qui acceptent les auto-entrepreneurs avec des
-offres allant de 5 à 20€ / mois mais si vous cherchez des offres gratuites ça
+offres allant de 5 à 20€ / mois, mais si vous cherchez des offres gratuites ça
 se complique. Il y a actuellement 3 banques où vous pouvez avoir un compte
-gratuit acceptant les auto-entrepreneurs mais il y a cependant quelques limitations.
+gratuit acceptant les auto-entrepreneurs, mais il y a cependant quelques limitations.
 
 - **AXA Banque Pro**
   - Les plus
@@ -409,8 +409,8 @@ gratuit acceptant les auto-entrepreneurs mais il y a cependant quelques limitati
     - terminal de paiement par carte (25€ sans frais mensuel)
   - Les moins
     - 900 € / trimestre de dépense par carte obligatoire pour avoir la CB gratuite sinon pénalité de 4€
-    - si vous ne prenez pas la CB des frais de tenue de compte s'appliquent
-- **N26 Busines (Standard)**
+    - Si vous ne prenez pas la CB des frais de tenue de compte s'appliquent
+- **N26 Business (Standard)**
   - Les plus
     - Cashback de 0,1 %
     - CB Virtuelle (0€) ou Mastercard (10€ frais de livraison)
@@ -422,13 +422,14 @@ gratuit acceptant les auto-entrepreneurs mais il y a cependant quelques limitati
     - 3 retraits CB en DAB sans frais par mois
     - Frais sur les dépôts en cas de solde excédant 50 000€ (0,5%)
     - Non cumulable avec un compte N26 personnel
-- **Revolut Business Free**
+- **Bourso Business**
   - Les plus
-    - Avantages divers sur les paiements en devises étrangères
+    - CB Virtuelle (0€) ou Mastercard (9€/mois si pas d'utilisation, gratuite sinon)
+    - Paiements & retraits en euros gratuits et illimités
   - Les moins
-    - pas de CB gratuite
-    - pas de paiements internationaux gratuits
-    - 5 virements (émis et reçus cumulés) par mois sans frais
+    - Nécessite l'ouverture d'un compte BoursoBank personnel
+    - Pas d'outil de gestion comptable
+    - Pas de dépot d'espèces
 
 Ref.
 
@@ -442,11 +443,11 @@ Ref.
 
 ## Dénomination sociale, nom commercial et marque d'entreprise
 
-En tant qu'auto-entrepreneur, la **dénomination sociale** de l'entreprise est obligatoirement lié au nom de famille de l'entrepreneur, seuls les cas suivant sont possibles :
+En tant qu'auto-entrepreneur, la **dénomination sociale** de l'entreprise est obligatoirement lié au nom de famille de l'entrepreneur, seuls les cas suivants sont possibles :
 
 - NOM (obligatoire, nom a minima)
 - Prénom NOM (optionnel, le prénom peut être ajouté)
-- Prénom NOM EIRL (la mention EIRL peut être ajouté dans le cadre d'une EIRL)
+- Prénom NOM EIRL (la mention EIRL peut être ajoutée dans le cadre d'une EIRL)
 
 > Dans le cadre de la création d'une entreprise individuelle (EI) ou d'une micro-entreprise, la dénomination sociale correspond obligatoirement à votre nom de famille, qui peut s'accompagner de votre prénom. Pourquoi ? Car l'identité juridique de l'entreprise individuelle est indissociable et strictement limitée à celle de son créateur : l'entrepreneur individuel.
 
@@ -471,7 +472,7 @@ Ref.
 
 ## Vie privée
 
-En tant qu'auto-entrepreneur BNC, il y a de forte chance que votre siège social soit votre domicile personnel. Afin de protéger sa vie privée et sa sécurité, il est judicieux de limiter l'accès de ses données à caractère personnel dans la base SIRENE, afin que, par exemple, votre adresse ne soit pas publique.
+En tant qu'auto-entrepreneur BNC, il y a de fortes chances que votre siège social soit votre domicile personnel. Afin de protéger sa vie privée et sa sécurité, il est judicieux de limiter l'accès de ses données à caractère personnel dans la base SIRENE, afin que, par exemple, votre adresse ne soit pas publique.
 
 Afin de bénéficier de la protection, il s'agit d'une simple case à cocher dans le formulaire de création d'entreprise ou de changement d'adresse.
 
