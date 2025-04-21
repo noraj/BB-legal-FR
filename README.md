@@ -208,16 +208,16 @@ Ce qui fera pencher entre l'EI et l'EURL sera lié au régime fiscal, notamment 
 
 > L'entrepreneur individuel peut choisir entre 3 régimes d'imposition, en fonction du montant de son chiffre d'affaires : le [régime de la micro-entreprise][7], le [régime réel simplifié][8] et le [régime réel normal][9].
 
-Pour des bénéfices non commerciaux (BNC) :
+Pour des bénéfices non commerciaux (BNC) [51][51] :
 
-- régime micro entreprise : 0 à 72 600 €
-- régime réel simplifié : 70 600 à 238 000 €
-- régime réel normal : 238k€ et +
-- régime de la déclaration contrôlée : 70 000 € et +
+- régime micro entreprise : 0 à 77 700 €
+- régime réel simplifié : 70 600 à 254 000 €
+- régime réel normal : 254k€ et +
+- régime de la déclaration contrôlée : 77 700 € et +
 
 Ici l'on comprend bien que l'on pourra ne bénéficier du régime de micro-entreprise
 qu'en dessous de ce palier de revenus.
-Au dessus de ~70k€ il faudra passer soit au régime réel ou de déclaration contrôlée,
+Au dessus de ~77k€ il faudra passer soit au régime réel ou de déclaration contrôlée,
 soit à une EURL au régime de l’impôt sur les sociétés (IS) ou au régime des
 sociétés de personnes (dans le cadre d'une personne morale) [[20][20]][[21][21]].
 
@@ -255,9 +255,15 @@ En tant qu'entrepreneur individuel, il y a un choix à faire parmis deux options
 Lorsque l’entreprise est soumise à l’impôt sur le revenu, l’imposition s’applique directement au niveau de l’entrepreneur. L’entreprise ne subit aucune imposition fiscale. Les bénéfices réalisés par l’intermédiaire de l’entreprise sont imposés dans la catégorie dont relève l’activité exercée : ici BNC.
 Le choix de l’imposition à l’IR permet, pour les activités réduites, de profiter des régimes d’imposition ultra-simplifiés : micro-BNC ou statut auto-entrepreneur.
 
-Lorsque l’entreprise est soumise à l’IS, l’imposition des bénéfices est appliquée directement au nom de l’entreprise. L’IS est calculé au taux normal mais un taux réduit de 15% sur les 38 120 premiers euros de bénéfices est possible sous conditions. Dans cette configuration, l’entrepreneur n'est imposable personnellement à l’IR que sur les rémunérations et les dividendes qu’il perçoit.
+Lorsque l’entreprise est soumise à l’IS, l’imposition des bénéfices est appliquée directement au nom de l’entreprise. L'IS est fixe à 25% sur toutes les sociétés. Cependant un taux réduit de 15% (sous conditions) est applicable aux PME :
 
-Dans notre cas de figure l'IR est plus simple et l'IS apporte de la complexité sans en tirer d'intérêt.
+- le chiffre d'affaires (CA) hors taxe (HT) est inférieur à 10 millions d'euros,
+- le capital est entièrement reversé et détenu à au moins 75 % par des personnes physiques (ou par une société appliquant ce critère).
+
+Depuis le 1er janvier 2023, ce taux réduit s'applique sur la part des bénéfices jusqu'à 42 500 euros. Au-delà, le bénéfice est imposé au taux normal de l'IS soit à 25 %.
+Dans cette configuration, l’entrepreneur n'est imposable personnellement à l’IR que sur les rémunérations et les dividendes qu’il perçoit.
+
+Dans notre cas de figure l'IR est plus simple, l'IS apporte de la complexité smais peut permettre des économies dans certains cas.
 
 Ref.
 
@@ -285,7 +291,7 @@ En gros, ça permet de payer l'IR au fur et à mesure sur l'année en cours, et 
 
 > Le versement forfaitaire libératoire est une option est ouverte uniquement aux micro-entrepreneurs dont le revenu fiscal de référence de l'année N-2 (RFR) n'excède pas un certain seuil pour une part de quotient familial.
 
-Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un salaire à côté il y a déjà de fortes chances qu'à lui seul notre salaire dépasse ce seuil, il nous sera alors impossible d'obter pour le VFL.
+Cela correspondait à un revenu de 28 797 €, or comme nous avons déjà un salaire à côté il y a déjà de fortes chances qu'à lui seul notre salaire dépasse ce seuil, il nous sera alors impossible d'obter pour le VFL.
 
 Pour l'IR au régime déclaratif spécial BNC, le chiffre d'affaires de l'année doit figurer sur la déclaration des revenus n°2042C-PRO (déclaration complémentaire des revenus des professions non salariées), selon les dates de déclaration de l'IR.
 
@@ -354,11 +360,11 @@ Par contre vous ne pouvez pas non plus récupérer celle sur vos achats.
 
 Les conditions pour pouvoir bénéficier de la franchise en base de TVA:
 
-- chiffre d’affaires hors taxes au cours de l’année civile précédente < 34 400 €
+- chiffre d’affaires hors taxes au cours de l’année civile précédente < 37 500 €
 - indiquer sur vos factures la mention suivante : `TVA non applicable, art. 293 B du CGI`
 
 Une marge est accordée dans le dépassement des seuils.
-La franchise reste applicable pendant l’année au cours de laquelle a lieu le dépassement si le chiffre d'affaires < 36 500 €.
+La franchise reste applicable pendant l’année au cours de laquelle a lieu le dépassement si le chiffre d'affaires < 41 250 €.
 
 > Si vous dépassez ces seuils, la TVA s’appliquera à compter du premier jour du mois au cours duquel les seuils ont été dépassés. Cela peut être embêtant quand vous avez déjà émis des factures pour le mois !
 
@@ -366,14 +372,15 @@ Avec le **régime réel simplifié de TVA** il faut payer des acomptes de TVA et
 
 En récapitulatif :
 
-- régime de la franchise de TVA (pas de TVA) : CA < 34 400€
-- régime réel simplifié de TVA : 34 400 à 238 000€
-- régime normal de TVA : + 238 000€
+- régime de la franchise de TVA (pas de TVA) : CA < 37 500€
+- régime réel simplifié de TVA : 37 500 à 254 000€
+- régime normal de TVA : + 254 000€
 
 Ref.
 
 - [captaincontrat.com - EIRL et TVA : fonctionnement de la taxe sur la valeur ajoutée en entreprise individuelle à responsabilité limitée][29]
 - [impots.gouv.fr - En tant que micro-entrepreneur, puis-je être redevable de la TVA ?][30]
+- [impots.gouv.fr - TVA : quels sont les différents régimes d'imposition ?][52]
 
 ## Compte bancaire
 
@@ -560,3 +567,5 @@ https://www.data.gouv.fr/fr/datasets/impots-locaux/
 [48]:https://www.portail-autoentrepreneur.fr/academie/creation-auto-entreprise/nom-commercial
 [49]:https://n26.com/fr-fr/iban-france
 [50]:https://n26.com/fr-fr/blog/l-iban-francais-debarque-chez-n26
+[51]:https://entreprendre.service-public.fr/vosdroits/F32105
+[52]:https://www.economie.gouv.fr/entreprises/regime-tva
