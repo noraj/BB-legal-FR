@@ -289,7 +289,7 @@ Cela correspondait à un revenu de 27 519 €k, or comme nous avons déjà un sa
 
 Pour l'IR au régime déclaratif spécial BNC, le chiffre d'affaires de l'année doit figurer sur la déclaration des revenus n°2042C-PRO (déclaration complémentaire des revenus des professions non salariées), selon les dates de déclaration de l'IR.
 
-Dans le [formulaire n°2042][43], on devrait principalement remplir le champ `5HQ`.
+Dans le [formulaire n°2042 C pro][43], on devrait principalement remplir le champ `5HQ`. Ne pas remplir `5HY` car nous payons déjà les cotisatiosn sociales sur le site de l'URSSAF.
 
 Il existe un [espace professionnel](https://cfspro-idp.impots.gouv.fr/) sur le site des impôt qui sera nécessaire pour payer la CFE. On peut être exonéré la 1ere année.
 
